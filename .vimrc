@@ -27,6 +27,9 @@ let NERDTreeDirArrows = 1
 " Show hidden files in NERDTree
 let NERDTreeShowHidden=1
 
+" Hide files matching patterns
+let NERDTreeIgnore = ['\.pyc$']
+
 " Close NERDTree when a file is opened
 let NERDTreeQuitOnOpen=1
 
