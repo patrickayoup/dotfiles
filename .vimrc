@@ -2,6 +2,7 @@
 set nocompatible
 filetype off
 
+" To update plugins :PluginInstall
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
@@ -9,12 +10,17 @@ Plugin 'VundleVim/Vundle.vim'
 
 " Other Plugins HERE
 
+" vim-colorschemes
+"""""""""""""""""""""""""""""""
 Plugin 'flazz/vim-colorschemes'
 colorscheme Monokai
 
+" YouCompleteMe
+"""""""""""""""""""""""""""""""
 Plugin 'Valloric/YouCompleteMe'
 
 " NERDTree
+"""""""""""""""""""""""""""""""
 Plugin 'scrooloose/nerdtree'
 
 " NERDTree UI Enhancements
@@ -41,10 +47,21 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 
+" UltiSnips
+"""""""""""""""""""""""""""""""
+Plugin 'SirVer/ultisnips'
+Plugin 'honza/vim-snippets'
+
+let g:UltiSnipsExpandTrigger="<c-j>"
+let g:UltiSnipsJumpForwardTrigger="<c-l>"
+let g:UltiSnipsJumpBackwardTrigger="<c-k>"
+let g:UltiSnipsEditSplit="vertical"
+
 call vundle#end()
 filetype plugin indent on
 
 " VIM Config
+"""""""""""""""""""""""""""""""
 set number
 set smartindent
 set tabstop=4
