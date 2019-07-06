@@ -60,6 +60,14 @@ let g:UltiSnipsEditSplit="vertical"
 call vundle#end()
 filetype plugin indent on
 
+" ALE
+"""""""""""""""""""""""""""""""
+Plugin 'w0rp/ale'
+
+" vim-airline
+"""""""""""""""""""""""""""""""
+Plugin 'vim-airline/vim-airline'
+
 " VIM Config
 """""""""""""""""""""""""""""""
 set number
