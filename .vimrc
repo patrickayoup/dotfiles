@@ -77,3 +77,6 @@ set shiftwidth=4
 set expandtab
 set colorcolumn=80
 
+map <C-l> :set number<CR>
+map <C-k> :set nonumber<CR>
+
