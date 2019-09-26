@@ -1,4 +1,5 @@
 " Vundle Config
+"""""""""""""""""""""""""""""""
 set nocompatible
 filetype off
 
@@ -57,9 +58,6 @@ let g:UltiSnipsJumpForwardTrigger="<c-l>"
 let g:UltiSnipsJumpBackwardTrigger="<c-k>"
 let g:UltiSnipsEditSplit="vertical"
 
-call vundle#end()
-filetype plugin indent on
-
 " ALE
 """""""""""""""""""""""""""""""
 Plugin 'w0rp/ale'
@@ -67,6 +65,14 @@ Plugin 'w0rp/ale'
 " vim-airline
 """""""""""""""""""""""""""""""
 Plugin 'vim-airline/vim-airline'
+
+" vim-polyglot
+"""""""""""""""""""""""""""""""
+Plugin 'sheerun/vim-polyglot'
+
+""PLUGINS MUST GO BEFORE HERE""
+call vundle#end()
+filetype plugin indent on
 
 " VIM Config
 """""""""""""""""""""""""""""""
@@ -76,4 +82,3 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 set colorcolumn=80
-
