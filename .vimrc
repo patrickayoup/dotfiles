@@ -70,6 +70,11 @@ Plugin 'vim-airline/vim-airline'
 """""""""""""""""""""""""""""""
 Plugin 'sheerun/vim-polyglot'
 
+" ctrlp.vim
+"""""""""""""""""""""""""""""""
+Plugin 'ctrlpvim/ctrlp.vim'
+
+
 ""PLUGINS MUST GO BEFORE HERE""
 call vundle#end()
 filetype plugin indent on
