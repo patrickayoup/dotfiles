@@ -1,5 +1,11 @@
 " Vundle Config
 """""""""""""""""""""""""""""""
+"" INSTALL VUNDLE
+"" git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+""
+"" INSALL PLUGINS
+"" :PluginInstall
+"""""""""""""""""""""""""""""""
 set nocompatible
 filetype off
 
@@ -13,11 +19,19 @@ Plugin 'VundleVim/Vundle.vim'
 
 " vim-colorschemes
 """""""""""""""""""""""""""""""
+"" INSTALL COLOR SCHEME
+"" mkdir .vim/colors
+"" cd .vim/colors
+"" wget https://raw.githubusercontent.com/flazz/vim-colorschemes/master/colors/Monokai.vim
 Plugin 'flazz/vim-colorschemes'
 colorscheme Monokai
 
 " YouCompleteMe
 """""""""""""""""""""""""""""""
+"" INSTALL YCM CORE
+"" sudo apt install build-essential cmake python3-dev
+"" cd ~/.vim/bundle/YouCompleteMe
+"" python3 install.py --clangd-completer
 Plugin 'Valloric/YouCompleteMe'
 
 " NERDTree
