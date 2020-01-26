@@ -1,14 +1,20 @@
 # dotfiles
 
+## Install Powerline Fonts
+
+    $ sudo apt-get install fonts-powerline
+
 ## Install ZSH
-    sudo apt-get install zsh
-    sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+    $ sudo apt-get install zsh
+    $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 ## Install Vundle
 
-    git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+    $ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 ## Install Vim Plugins
+
+From VIM, run the following:
 
     :PluginInstall
 
